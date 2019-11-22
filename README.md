@@ -6,7 +6,7 @@ Download <a href="https://www.cygwin.com/setup-x86_64.exe"> Cygwin </a>
 
 Select 'lynx' package during setup.  
 
-After installation run cygwin and apply following commands in order to install commandline installer for Cygwin:
+After installation run Cygwin and apply following commands in order to install commandline installer for Cygwin:
 
 `lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg`
 
