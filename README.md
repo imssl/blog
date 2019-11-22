@@ -1,3 +1,15 @@
+## Cygwin Install
+
+Don't have privileges to install Ubuntu subsystem on your Windows computer at work but can't give up Bash?
+
+Download <a href="https://www.cygwin.com/setup-x86_64.exe"> Cygwin </a>
+Apply following commands in order to install commandline installer for Cygwin:
+`lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+install apt-cyg /bin`
+
+Usage is same as apt-get:
+`apt-cyg install nano` 
+
 ## Look for a file/folder in Linux machine
 
 `sudo find / | grep <string>`
