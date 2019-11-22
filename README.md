@@ -1,6 +1,6 @@
-## Look for a file in Linux machine
+## Look for a file/folder in Linux machine
 
-`sudo find / | grep <fileName/partOfFileName>`
+`sudo find / | grep <string>`
 
 ## Shutdown Linux Machine
 
