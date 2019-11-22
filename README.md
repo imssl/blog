@@ -1,6 +1,6 @@
-## Cygwin Install
+## Cygwin Setup
 
-Don't have privileges to install Ubuntu subsystem on your Windows computer at work but can't give up Bash?
+Don't have the privileges to install Ubuntu subsystem on your Windows computer at work but can't give up Bash?
 
 Download <a href="https://www.cygwin.com/setup-x86_64.exe"> Cygwin </a>
 Apply following commands in order to install commandline installer for Cygwin:
