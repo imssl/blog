@@ -4,7 +4,9 @@ Don't have the privileges to install Ubuntu subsystem on your Windows computer a
 
 Download <a href="https://www.cygwin.com/setup-x86_64.exe"> Cygwin </a>
 
-Apply following commands in order to install commandline installer for Cygwin:
+Select 'lynx' package during setup.  
+
+After installation run cygwin and apply following commands in order to install commandline installer for Cygwin:
 
 `lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg`
 
