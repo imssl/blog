@@ -1,4 +1,12 @@
-# Hello World!
+## Look for a file in Linux machine
+
+`sudo find / | grep <fileName/partOfFileName>
+
+## Shutdown Linux Machine
+
+`sudo shutdown -h now`
+
+## Hello World!
 
 It's Alex here.
 
