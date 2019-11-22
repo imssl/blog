@@ -4,6 +4,6 @@ It's Alex here.
 
 Reach me out on:
 
-https://twitter.com/imsysl
+<a href="https://twitter.com/imsysl"> Twitter </a>
 
 iskendersoysal@protonmail.com
