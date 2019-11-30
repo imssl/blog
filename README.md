@@ -6,7 +6,7 @@ It's Alex here.
 
 Reach me out on:
 
-<a href="https://twitter.com/imsysl"> Twitter </a> | <a href="https://www.instagram.com/alexsoysal/"> Instagram </a> | <a href="https://www.linkedin.com/in/iskendersoysal/"> LinkedIn </a> | iskendersoysal@protonmail.com
+<a href="https://twitter.com/imsysl"> Twitter </a> <a href="https://www.instagram.com/alexsoysal/"> Instagram </a> <a href="https://www.linkedin.com/in/iskendersoysal/"> LinkedIn </a> iskendersoysal@protonmail.com
 
 # Cygwin Setup
 
