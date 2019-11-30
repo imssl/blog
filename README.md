@@ -13,7 +13,7 @@ iskendersoysal@protonmail.com
 
 
 
-## Cygwin Setup
+# Cygwin Setup
 
 Don't have the privileges to install Ubuntu subsystem on your Windows computer at work but can't give up Bash?
 
@@ -30,10 +30,10 @@ After installation run Cygwin and apply following commands in order to install c
 Usage is same as apt-get:
 `apt-cyg install nano` 
 
-## Look for a file/folder in Linux machine
+# Look for a file/folder in Linux machine
 
 `sudo find / | grep <string>`
 
-## Shutdown Linux Machine
+# Shutdown Linux Machine
 
 `sudo shutdown -h now`
