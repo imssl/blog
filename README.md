@@ -1,6 +1,6 @@
 # Hello World!
 
-It's Alex here.
+It's Alex here.                                                                           ![Image](https://pbs.twimg.com/profile_images/1164590169288335360/iFtFEJMU_400x400.jpg)
 
 Reach me out on:
 
@@ -8,7 +8,7 @@ Reach me out on:
 
 iskendersoysal@protonmail.com
 
-![Image](https://pbs.twimg.com/profile_images/1164590169288335360/iFtFEJMU_400x400.jpg)
+
 
 
 ## Cygwin Setup
