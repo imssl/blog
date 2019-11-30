@@ -1,6 +1,8 @@
 # Hello World!
 
-It's Alex here.                                                                           ![Image](https://pbs.twimg.com/profile_images/1164590169288335360/iFtFEJMU_400x400.jpg)
+https://pbs.twimg.com/profile_images/1164590169288335360/iFtFEJMU_200x200.jpg
+
+It's Alex here.
 
 Reach me out on:
 
