@@ -65,9 +65,9 @@ For Debian based distributions, :
 
 You can observe burst of ARP packets if some host is trying to learn all alive hosts by broadcasting ARP requests (usually done with nmap or netdiscover) to every IP address available in relevant subnet that is being used on your network. Attacker might also try to learn alive hosts by ping sweep if ICMP echo-request packets are not dropped in your network. Delay between scan intervals between each IP can be prolonged in order to decrease detectability of scanning. IP address for the host which scanning initiated from is 192.168.56.104 for all examples below. Here we can see a fast network scan is initiated with ARP requests:
 
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'arp'
-Output:
+-	Output:
 1 0.000000000 PcsCompu_30:a2:72 → Broadcast    ARP 42 Who has 192.168.56.1? Tell 192.168.56.104
 2 0.001415100 PcsCompu_30:a2:72 → Broadcast    ARP 42 Who has 192.168.56.2? Tell 192.168.56.104
 3 0.002762354 PcsCompu_30:a2:72 → Broadcast    ARP 42 Who has 192.168.56.3? Tell 192.168.56.104
@@ -81,9 +81,9 @@ Output:
  
 IP protocol scan is yet another way for attacker to discover alive hosts, you can observe burst of destination unreachable ICMP packets originated from target machines with command below in a IP protocol scanning:
 
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'icmp.type==3 and icmp.code==2'
-Output: 
+-	Output: 
 522 3.167653065 192.168.56.105 → 192.168.56.104 ICMP 62 Destination unreachable (Protocol unreachable)
 523 3.167670319 192.168.56.105 → 192.168.56.104 ICMP 62 Destination unreachable (Protocol unreachable)
 524 3.167672757 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Protocol unreachable)
@@ -97,9 +97,9 @@ Output:
 
 If we apply filter 'tcp.flags == 0x002' which is the indicator flag for SYN packets, we will also be able to see if this source machine tried to stealth scan any alive host's ports via sending TCP-SYN packets to see if they are open, closed or filtered. In the following output we can observe source machine selected a dynamic port 58756 to start the scan against target machines and sent TCP-SYN packets randomly to known/important static ports between 1 to 49151 in order to learn what services are running on the machines and what ports are filtered or open. If destination port is open, target machine will reply to source machine's request with a TCP-SYN+ACK packet, if it is closed machine will reply with TCP-SYN+RST packet.
 
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'tcp.flags == 0x002 and ip.src == 192.168.56.104'
-Output:
+-	Output:
 2409 3.296070335 192.168.56.104 → 192.168.56.105 TCP 58 58756 → 49152 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
  2412 3.296216461 192.168.56.104 → 192.168.56.100 TCP 58 58756 → 49152 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
  2416 3.296411357 192.168.56.104 → 192.168.56.105 TCP 58 58756 → 2105 [SYN] Seq=0 Win=1024 Len=0 MSS=1460
@@ -117,22 +117,22 @@ Output:
 ...
 
 Msrpc service running and relevant port (135) is open on target machine, response originated from target machine:
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'tcp.port==135 and ip.src == 192.168.56.105'
-Output:
+-	Output:
 578 3.624844432 192.168.56.105 → 192.168.56.104 TCP 60 135 → 55299 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460
 
 SSH port (22) is closed on target machine, response originated from target machine:
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'tcp.port==22 and ip.src == 192.168.56.105'
-Output:
+-	Output:
 524 7.685295528 192.168.56.105 → 192.168.56.104 TCP 60 22 → 51614 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
 
 Due to some privilege restrictions on the host machine which is used for scanning, attacker might not be able to initiate stealth SYN scan but instead can start TCP connect scan. In this type of scan, in addition to initial SYN sent from the source and SYN-ACK sent back from the target, you should observe that host machine sent an ACK packet to target machine to continue with the TCP handshake and then it will send RST-ACK packet to target machine:
 
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'tcp.port==135' (Again, 135 is an open port on target machine)
-Output:
+-	Output:
 519 3.659834221 192.168.56.104 → 192.168.56.105 TCP 74 34070 → 135 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 
 529 3.660039327 192.168.56.105 → 192.168.56.104 TCP 66 135 → 34070 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 
 530 3.660042513 192.168.56.104 → 192.168.56.105 TCP 54 34070 → 135 [ACK] Seq=1 Ack=1 Win=64256 Len=0
@@ -140,9 +140,9 @@ Output:
 
 Attacker can also execute UDP scan to discover the hosts and open ports. Sometimes open UDP ports are disregarded by administrators since most of the services use TCP and UDP scanning takes too much time and effort, but there are many exploitable UDP services that might be installed on the machines too. Like in TCP-SYN flood, you should observe burst of requests on various ports. You can simply detect UDP scan with the following filter:
 
-Command: 
+-	Command: 
 tshark -i eth0 -Y 'icmp.type==3 and icmp.code==3'
-Output:
+-	Output:
 487 3.390934944 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Port unreachable)
 488 3.390949919 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Port unreachable)
 489 3.390968448 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Port unreachable)
@@ -153,9 +153,9 @@ Output:
 
 FIN, PSH and URG flags are manipulated in outgoing TCP packets to conduct XMAS scan. It can be observed that following filter prints out the packets that indicated relevant source host scanned the ports of two other machines.
 
-Command:
+-	Command:
 tshark -i eth0 -Y 'tcp.flags==0x029'
-Output:
+-	Output:
 3266 4.114724959 192.168.56.104 → 192.168.56.100 TCP 54 40020 → 5225 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
 3267 4.114757846 192.168.56.104 → 192.168.56.100 TCP 54 40020 → 3493 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
 3268 4.114794841 192.168.56.104 → 192.168.56.100 TCP 54 40020 → 1138 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
@@ -168,9 +168,9 @@ Output:
 
 PROTECTION / MITIGATION
 
-•	A network automation system which will try to detect any kind of malicious scanning and will have the privilege to block the layer 2 communication of malicious computers to the network.
-•	Configuring the network firewall to drop suspicious packets with alerting level intervals and ping packets.
-•	Using logical and protective rule tables on operating system firewalls, getting rid of redundant services running on machines.
-•	Keeping all operating systems up-to-date, which might reduce or block the exploitablility of open ports.
-•	For hardening the defense mechanisms against network host & port probe attacks redirecting open ports to honeypot machines and to dummy services with firewall configurations is also a productive way in order to create attack notification systems to indetify the intrusion beforehand and build countermeasures quickly for open ports in real systems.
+-	A network automation system which will try to detect any kind of malicious scanning and will have the privilege to block the layer 2 communication of malicious computers to the network.
+-	Configuring the network firewall to drop suspicious packets with alerting level intervals and ping packets.
+-	Using logical and protective rule tables on operating system firewalls, getting rid of redundant services running on machines.
+-	Keeping all operating systems up-to-date, which might reduce or block the exploitablility of open ports.
+-	For hardening the defense mechanisms against network host & port probe attacks redirecting open ports to honeypot machines and to dummy services with firewall configurations is also a productive way in order to create attack notification systems to indetify the intrusion beforehand and build countermeasures quickly for open ports in real systems.
 
