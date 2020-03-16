@@ -33,7 +33,7 @@ Usage is same as apt-get:
 
 `sudo shutdown -h now`
 
-# TRACKING MALICIOUS SCANNING ACTIVITY WITH TSHARK
+# Tracking Malicious Scanning Activity Using Tshark
 
 Tshark is the command line interface for the computer network unit (frame, packet, datagram) analyzer application Wireshark. It provides sniffing all layers of the traffic on the network which is connected to, and besides the wireshark filters can be used also bash commands can be used for filtering and sorting outputs from sniff files or during sniffing. Various Linux distributions also have another command line computer network unit analyzer called Tcpdump which is installed by default.
 To be able to use Tshark on your Linux machine all you have to do install Wireshark on your machine with the relevant package manager.
