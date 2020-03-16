@@ -34,7 +34,6 @@ Usage is same as apt-get:
 `sudo shutdown -h now`
 
 # Tracking Malicious Scanning Activity Using Tshark
-
 Tshark is the command line interface for the computer network unit (frame, packet, datagram) analyzer application Wireshark. It provides sniffing all layers of the traffic on the network which is connected to, and besides the wireshark filters can be used also bash commands can be used for filtering and sorting outputs from sniff files or during sniffing. Various Linux distributions also have another command line computer network unit analyzer called Tcpdump which is installed by default.
 To be able to use Tshark on your Linux machine all you have to do install Wireshark on your machine with the relevant package manager.
 
@@ -45,24 +44,24 @@ sudo yum install gcc gcc-c++ bison flex libpcap-devel qt-devel gtk3-devel rpm-bu
 sudo apt-get install build-essential checkinstall libcurl4-openssl-dev bison flex qt5-default qttools5-dev libssl-dev libgtk-3-dev libpcap-d
 
 •	Install Wireshark, then tshark would be available for use with command line:
-- For RPM package manager based distributions:
-	sudo yum install wireshark wireshark-qt
-- For Debian based distributions, :
-	sudo apt-get install wireshark 
+For RPM package manager based distributions:
+-	sudo yum install wireshark wireshark-qt
+For Debian based distributions, :
+-	sudo apt-get install wireshark 
 •	Some useful tshark command parameters:
-	-i : The network interface of the host machine which will be sniffed
-	-Y : Filter to be used for displaying packets
-	-r : Capture file to be read
-	-w : File which will be the captured packets written on with pcapng format
-	-T : Output format (fields, json, etc.)
-	-e : Field to print if -T is selected as "fields". (e.g. tcp.port)
+-	-i : The network interface of the host machine which will be sniffed
+-	-Y : Filter to be used for displaying packets
+-	-r : Capture file to be read
+-	-w : File which will be the captured packets written on with pcapng format
+-	-T : Output format (fields, json, etc.)
+-	-e : Field to print if -T is selected as "fields". (e.g. tcp.port)
 
 •	Some useful wireshark filters to use with -Y parameter:
-	ip.host : Any source or destination host IP address to inspect bidirectional traffic
-	ip.src : Source IP address for outgoing network units
-	ip.dst : Destination IP address for incoming network units
-	tcp/udp.port : Specify which port traffic should be displayed
-	tcp/udp.flags : Define which packets should be displayed with relevant TCP or UDP flags
+-	ip.host : Any source or destination host IP address to inspect bidirectional traffic
+-	ip.src : Source IP address for outgoing network units
+-	ip.dst : Destination IP address for incoming network units
+-	tcp/udp.port : Specify which port traffic should be displayed
+-	tcp/udp.flags : Define which packets should be displayed with relevant TCP or UDP flags
 
 You can observe burst of ARP packets if some host is trying to learn all alive hosts by broadcasting ARP requests (usually done with nmap or netdiscover) to every IP address available in relevant subnet that is being used on your network. Attacker might also try to learn alive hosts by ping sweep if ICMP echo-request packets are not dropped in your network. Delay between scan intervals between each IP can be prolonged in order to decrease detectability of scanning. IP address for the host which scanning initiated from is 192.168.56.104 for all examples below. Here we can see a fast network scan is initiated with ARP requests:
 
