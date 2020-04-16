@@ -2,7 +2,7 @@
 
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
-# Disable Hyper-V through cmd (fix for "VT-x is not available" issue)
+# Disable Hyper-V through cmd (Err:"verr_vmx_no_vmx")
 
 dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 
