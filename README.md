@@ -1,8 +1,6 @@
-# Hello World!
+# Hello World
 
 ![Image](https://pbs.twimg.com/profile_images/1164590169288335360/iFtFEJMU_200x200.jpg)
-
-It's Alex here.
 
 Reach me out on:
 
@@ -13,8 +11,6 @@ Reach me out on:
 dism.exe /Online /Disable-Feature:Microsoft-Hyper-V
 
 # Cygwin Setup
-
-Don't have the privileges to install Ubuntu subsystem on your Windows computer at work but can't give up Bash?
 
 Download <a href="https://www.cygwin.com/setup-x86_64.exe"> Cygwin </a>
 
