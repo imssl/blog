@@ -3,9 +3,9 @@
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
 # Nano Hotkeys
-- CTRL + 6 = Mark Set
 - CTRL + Y = Begining of file
 - CTRL + E = End of line
+- CTRL + 6 = Mark Set
 - CTRL + K = Cut
 - ALT + 6 = Copy
 - CTRL + U = Paste
