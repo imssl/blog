@@ -3,8 +3,7 @@
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
 # JavaScript Documentation
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> https://developer.mozilla.org/en-US/docs/Web/JavaScript </a>
 
 # Nano Hotkeys
 - CTRL + Y = Begining of file
@@ -15,8 +14,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript
 - CTRL + U = Paste
 
 # DOCKERFILE directives:
-
-https://docs.docker.com/engine/reference/builder/
+<a href="https://docs.docker.com/engine/reference/builder/"> https://docs.docker.com/engine/reference/builder/ </a>
 
 # Disable Hyper-V through cmd (Err:"verr_vmx_no_vmx")
 
