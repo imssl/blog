@@ -2,6 +2,10 @@
 
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
+# JavaScript Documentation
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
 # Nano Hotkeys
 - CTRL + Y = Begining of file
 - CTRL + E = End of line
