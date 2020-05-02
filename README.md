@@ -2,6 +2,22 @@
 
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
+# Some pieces to think about from The Messenger Easter Egg
+
+The one thing that keeps bugging me is this concept of happiness. Everyone seems to be looking for it, some pretend to have it, but no one can really explain what it is.
+
+I think I finally cracked that code. You see, everyone has goals. So you think oh when I have this I'll be happy, or when I achieve that I'll feel eternal bliss.
+
+Some people are looking for love or acceptance, while others simply hope Devolver will sign their kickass game :)
+
+Goals don't make people happy. They defer happiness into the future, to when the goal will be achieved.
+
+This can only fail, because once you reach your goal, you are not the same person you were when you set out to achieve it. And what's more, your mindset is to chase something instead of enjoying what you have.
+
+So there you have it. Happiness is not a goal or a state, it's a system. You optimize your environment and cherry pick the people around you.
+
+So that everyday you're just stoked to live your own life, and you don't need to defer any joys, because you optimized the present moment.
+
 # JavaScript Documentation
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> https://developer.mozilla.org/en-US/docs/Web/JavaScript </a>
 
