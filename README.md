@@ -24,6 +24,25 @@
     for i, color in enumerate(colors):
         ratio = ratios[i]
         print("{}% {}".format(ratio * 100, color))
+        
+# Python List
+
+    dict = {}
+    while True:
+        word = input('Enter a word')
+        if word in dict:
+            print(word, 'means', dict[word])
+        elif word == 'done':
+            break
+        elif word not in dict:
+            print('There is no information for', word)
+            newword = input('What does it mean?')
+            dict.update({word:newword})
+
+    print('There are', len(dict) , 'entries in the dictionary:')
+
+    for key in dict:
+        print(key, '-', dict[key])
 
 
 # JavaScript Documentation
