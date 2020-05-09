@@ -149,9 +149,9 @@ tshark -i eth0 -Y 'tcp.port==22 and ip.src == 192.168.56.105'
 
 Due to some privilege restrictions on the host machine which is used for scanning, attacker might not be able to initiate stealth SYN scan but instead can start TCP connect scan. In this type of scan, in addition to initial SYN sent from the source and SYN-ACK sent back from the target, you should observe that host machine sent an ACK packet to target machine to continue with the TCP handshake and then it will send RST-ACK packet to target machine:
 
--	Command: 
+- Command: 
 tshark -i eth0 -Y 'tcp.port==135' (Again, 135 is an open port on target machine)
--	Output:
+- Output:
     519 3.659834221 192.168.56.104 → 192.168.56.105 TCP 74 34070 → 135 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 SACK_PERM=1 
     529 3.660039327 192.168.56.105 → 192.168.56.104 TCP 66 135 → 34070 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1460 
     530 3.660042513 192.168.56.104 → 192.168.56.105 TCP 54 34070 → 135 [ACK] Seq=1 Ack=1 Win=64256 Len=0
@@ -159,9 +159,9 @@ tshark -i eth0 -Y 'tcp.port==135' (Again, 135 is an open port on target machine)
 
 Attacker can also execute UDP scan to discover the hosts and open ports. Sometimes open UDP ports are disregarded by administrators since most of the services use TCP and UDP scanning takes too much time and effort, but there are many exploitable UDP services that might be installed on the machines too. Like in TCP-SYN flood, you should observe burst of requests on various ports. You can simply detect UDP scan with the following filter:
 
--	Command: 
+- Command: 
 tshark -i eth0 -Y 'icmp.type==3 and icmp.code==3'
--	Output:
+- Output:
     487 3.390934944 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Port unreachable)
     488 3.390949919 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Port unreachable)
     489 3.390968448 192.168.56.100 → 192.168.56.104 ICMP 70 Destination unreachable (Port unreachable)
@@ -172,9 +172,9 @@ tshark -i eth0 -Y 'icmp.type==3 and icmp.code==3'
 
 FIN, PSH and URG flags are manipulated in outgoing TCP packets to conduct XMAS scan. It can be observed that following filter prints out the packets that indicated relevant source host scanned the ports of two other machines.
 
--	Command:
+- Command:
 tshark -i eth0 -Y 'tcp.flags==0x029'
--	Output:
+- Output:
     3266 4.114724959 192.168.56.104 → 192.168.56.100 TCP 54 40020 → 5225 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
     3267 4.114757846 192.168.56.104 → 192.168.56.100 TCP 54 40020 → 3493 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
     3268 4.114794841 192.168.56.104 → 192.168.56.100 TCP 54 40020 → 1138 [FIN, PSH, URG] Seq=1 Win=1024 Urg=0 Len=0
