@@ -181,14 +181,18 @@ Output:
 Msrpc service running and relevant port (135) is open on target machine, response originated from target machine:
 -	Command: 
 tshark -i eth0 -Y 'tcp.port==135 and ip.src == 192.168.56.105'
--	Output:
-578 3.624844432 192.168.56.105 → 192.168.56.104 TCP 60 135 → 55299 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460
+
+Output:
+
+    578 3.624844432 192.168.56.105 → 192.168.56.104 TCP 60 135 → 55299 [SYN, ACK] Seq=0 Ack=1 Win=64240 Len=0 MSS=1460
 
 SSH port (22) is closed on target machine, response originated from target machine:
 -	Command: 
 tshark -i eth0 -Y 'tcp.port==22 and ip.src == 192.168.56.105'
--	Output:
-524 7.685295528 192.168.56.105 → 192.168.56.104 TCP 60 22 → 51614 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+
+Output:
+
+    524 7.685295528 192.168.56.105 → 192.168.56.104 TCP 60 22 → 51614 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
 
 Due to some privilege restrictions on the host machine which is used for scanning, attacker might not be able to initiate stealth SYN scan but instead can start TCP connect scan. In this type of scan, in addition to initial SYN sent from the source and SYN-ACK sent back from the target, you should observe that host machine sent an ACK packet to target machine to continue with the TCP handshake and then it will send RST-ACK packet to target machine:
 
