@@ -2,7 +2,16 @@
 
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
-# Some pieces to think about from The Messenger Easter Egg
+# Python 'enumerate'
+
+colors = ["red", "green", "blue", "purple"]
+ratios = [0.2, 0.3, 0.1, 0.4]
+for i, color in enumerate(colors):
+    ratio = ratios[i]
+    print("{}% {}".format(ratio * 100, color))
+
+
+# Some pieces to think about from 'The Messenger' Easter Egg
 
 The one thing that keeps bugging me is this concept of happiness. Everyone seems to be looking for it, some pretend to have it, but no one can really explain what it is.
 
