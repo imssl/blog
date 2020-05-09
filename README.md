@@ -2,6 +2,21 @@
 
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
+# Python Nested Loop
+
+    def print_table(list1,list2):
+        a = []
+        a.append(list1)
+        a.append(list2)
+
+        for j in range(len(a[0])):
+            for k in range(0,len(a[1])):
+                print(a[0][j]+a[1][k]+" ",end='')
+            if k == len(a[1])-1:
+                print('')
+
+    print_table(['3', '5', '7','4','5','6','7'],['A', 'B', 'C','L','J','A'])
+
 # Python 'enumerate'
 
     colors = ["red", "green", "blue", "purple"]
