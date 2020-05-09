@@ -25,7 +25,7 @@
         ratio = ratios[i]
         print("{}% {}".format(ratio * 100, color))
         
-# Python List
+# Python Dictionary (Hash Table)
 
     dict = {}
     while True:
