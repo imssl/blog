@@ -4,7 +4,11 @@
 
 # Smartphone Market May 2020 - Domination of A
 
-Recently I'm getting asked a lot about smartphones and which one to buy. I was an old fan of Xiaomi products but they lost my trust at phone market due to their downgrading/bug introducing updates on their MiUI along the time. So last year when my Xiaomi phone was finally rest in peace, after 7-8 years of distancing I went back to Samsung with a Galaxy A series phone. It's been a full year and honestly I'm very glad that I made this choice. I didn't observe any reduction on CPU/RAM or battery performance all this time, UI/Wearable/Performance updates are going on as they meant to be focused on 'Improvement' and every other attiribute of it (Camera, NFC, Color pallet, etc.) is more than sufficient for me. Last 6 months I made many friends and relatives get a A series phones. I'm in realise that many people are also happy with their Huawei P and Honor series phones but since I've never used a phone with HiSilicon chipset myself it's not proper for me to recommend you any Huawei phone.
+Recently I'm getting asked a lot about smartphones and which one to buy. I was an old fan of Xiaomi products but they lost my trust at phone market due to their downgrading/bug introducing updates on their MiUI along the time. So last year when my Xiaomi phone was finally rest in peace, after 7-8 years of distancing I went back to Samsung with a Galaxy A series phone. 
+
+It's been a full year with my Galaxy A9 and honestly I'm very glad that I made this choice. I didn't observe any reduction on CPU/RAM or battery performance all this time, UI/Wearable/Performance updates are going on as they meant to be focused on 'Improvement' and every other attiribute of it (Camera, NFC, Color pallet, etc.) is more than sufficient for me. 
+
+Last 6 months I made many friends and relatives get a A series phones and I made a bunch of research about them so my recommendations will be regarding only them for now. I'm in realise that many people are also happy with their Huawei P and Honor series phones but since I've never used a phone with HiSilicon chipset myself it's not proper for me to recommend you any Huawei phone.
 
 Here is some highly cost-performance efficient A series phones, only downside is that they don't include Gorilla Glass 5 but in general I'm a careful user when it comes to phones and I don't use any protectors/cases either in general:
 
