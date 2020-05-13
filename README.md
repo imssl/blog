@@ -2,6 +2,16 @@
 
 <a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
+# Smartphone Market May 2020 - Domination of A
+
+Recently I'm getting asked a lot about smartphones and which one to buy. I was an old fan of Xiaomi products but they lost my trust at phone market due to their downgrading/bug introducing updates on their MiUI along the time. So last year when my Xiaomi phone was finally rest in peace, after 7-8 years of distancing I went back to Samsung with a Galaxy A series phone. It's been a full year and honestly I'm very glad that I made this choice. I didn't observe any reduction on CPU/RAM or battery performance all this time, UI/Wearable/Performance updates are going on as they meant to be focused on 'Improvement' and every other attiribute of it (Camera, NFC, Color pallet, etc.) is more than sufficient for me. Last 6 months I made many friends and relatives get a A series phones. I'm in realise that many people are also happy with their Huawei P and Honor series phones but since I've never used a phone with HiSilicon chipset myself it's not proper for me to recommend you any Huawei phone.
+
+Here is some highly cost-performance efficient A series phones, only downside is that they don't include Gorilla Glass 5 but in general I'm a careful user when it comes to phones and I don't use any protectors/cases either in general:
+
+https://www.phonearena.com/phones/compare/Samsung-Galaxy-A51,Samsung-Galaxy-A71,Samsung-Galaxy-A80/phones/11293,11302,11164
+
+Important thing to mention about Samsung today is that it seems they got a huge lessons learned card past few years due to their false productions and bad testings so now their flagship or A series phones don't include any mass production errors anymore. Sadly LG, Xiaomi and some other brands still bad at this point and made me very upset last five years in this matter. 
+
 # Python Nested Loop
 
     def print_table(list1,list2):
