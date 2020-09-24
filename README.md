@@ -4,7 +4,9 @@
 
 # DSLR Market Sep 2020
 
-Nice depiction of current DSLR photography machine market 
+Nice depiction of current DSLR photo machine market below
+You can also compare them through this PhoneArena.com of photo machines: https://cameradecision.com/
+
 <img src="https://i.ibb.co/RH6bgpN/photo-2020-09-24-00-37-57.jpg">
 
 
