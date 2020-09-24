@@ -5,7 +5,7 @@
 # DSLR Market Sep 2020
 
 Nice depiction of current DSLR photography machine market 
-<img src="http://i.xomf.com/vdbdh.jpg">
+<img src="https://ibb.co/3hFdTyv">
 
 
 # Smartphone Market May 2020 - Domination of A
