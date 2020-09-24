@@ -1,6 +1,6 @@
 # Hello World
 
-<a href="https://twitter.com/alxsysl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
+<a href="https://twitter.com/alxsyl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
 # Smartphone Market May 2020 - Domination of A
 
