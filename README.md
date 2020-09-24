@@ -2,6 +2,12 @@
 
 <a href="https://twitter.com/alxsyl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
+# DSLR Market Sep 2020
+
+Nice depiction of current DSLR photography machine market 
+<img src="http://i.xomf.com/vdbdh.jpg">
+
+
 # Smartphone Market May 2020 - Domination of A
 
 Recently I'm getting asked a lot about smartphones and which one to buy. I was an old fan of Xiaomi products but they lost my trust at phone market due to their downgrading/bug introducing updates on their MiUI along the time. So last year when my Xiaomi phone was finally rest in peace, after 7-8 years of distancing I went back to Samsung with a Galaxy A series phone. 
