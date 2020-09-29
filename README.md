@@ -2,9 +2,16 @@
 
 <a href="https://twitter.com/alxsyl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
 
+# Size of Australia compared to western part of Europe
+
+<img src="https://i.ibb.co/KmVcmBh/photo-2020-09-29-11-10-50.jpg">
+
+# Cereal
+TIL that cereal is named for cereal grains, which in turn are named for Ceres, Roman goddess of harvests and agriculture.
+
 # DSLR Market Sep 2020
 
-Nice depiction of current DSLR photo machine market below
+Nice depiction of current DSLR photo machine market below. Just got myself Fujifilm x-t100!
 
 You can also compare them through this PhoneArena.com of photo machines: https://cameradecision.com/
 
