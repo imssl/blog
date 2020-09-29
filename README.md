@@ -4,7 +4,7 @@
 
 # Size of Australia compared to western part of Europe
 https://thetruesize.com/
-<img src="https://i.ibb.co/KmVcmBh/photo-2020-09-29-11-10-50.jpg">
+<p><img src="https://i.ibb.co/KmVcmBh/photo-2020-09-29-11-10-50.jpg"></p>
 
 # Cereal
 TIL that cereal is named for cereal grains, which in turn are named for Ceres, Roman goddess of harvests and agriculture.
