@@ -1,7 +1,3 @@
-# Hello World
-
-<a href="https://twitter.com/alxsyl">Twitter</a> \| <a href="https://www.instagram.com/alxsys/">Instagram</a> \| <a href="https://www.linkedin.com/in/iskendersoysal/">LinkedIn</a> \| iskendersoysal@protonmail.com
-
 # Size of Australia compared to western part of Europe
 <a href="https://thetruesize.com/">truesize.com</a>
 <p><img src="https://i.ibb.co/KmVcmBh/photo-2020-09-29-11-10-50.jpg"></p>
