@@ -1,3 +1,18 @@
+# Git
+     git remote set-url origin "URL"
+
+     git clone
+     git init
+
+     git add .
+     git commit -m "com1"
+     git push
+
+     git fetch
+     git checkout
+     git diff
+     git pull
+
 # Size of Australia compared to western part of Europe
 <a href="https://thetruesize.com/">truesize.com</a>
 <p><img src="https://i.ibb.co/KmVcmBh/photo-2020-09-29-11-10-50.jpg"></p>
