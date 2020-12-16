@@ -13,35 +13,8 @@
      git diff
      git pull
 
-# Size of Australia compared to western part of Europe
-<a href="https://thetruesize.com/">truesize.com</a>
-<p><img src="https://i.ibb.co/KmVcmBh/photo-2020-09-29-11-10-50.jpg"></p>
-
 # Cereal
 TIL that cereal is named for cereal grains, which in turn are named for Ceres, Roman goddess of harvests and agriculture.
-
-# DSLR Market Sep 2020
-
-Nice depiction of current DSLR photo machine market below. Just got myself Fujifilm x-t100!
-
-You can also compare them through this PhoneArena.com of photo machines: https://cameradecision.com/
-
-<img src="https://i.ibb.co/RH6bgpN/photo-2020-09-24-00-37-57.jpg">
-
-
-# Smartphone Market May 2020 - Domination of A
-
-Recently I'm getting asked a lot about smartphones and which one to buy. I was an old fan of Xiaomi products but they lost my trust at phone market due to their downgrading/bug introducing updates on their MiUI along the time. So last year when my Xiaomi phone was finally rest in peace, after 7-8 years of distancing I went back to Samsung with a Galaxy A series phone. 
-
-It's been a full year with my Galaxy A9 and honestly I'm very glad that I made this choice. I didn't observe any reduction on CPU or battery performance all this time, UI/Wearable/Performance updates are going on as they meant to be focused on 'Improvement' and every other attiribute of it (Camera, NFC, Color pallet, etc.) is more than sufficient for me, this was the first phone I used fingerprint sensor on the back and I realised I would be way more comfortable with in-screen sensor but face unlock detection does the trick for me most of the time if there is enough light in the environment. 
-
-Last 6 months I made many friends and relatives get A series phones therefore I made a bunch of research only about them so my recommendations will be regarding limited to them for now. I realise that many people are also happy with their Huawei P and Honor series phones but since I've never used a phone with HiSilicon chipset myself it's not proper for me to recommend you any Huawei phone.
-
-Here are some highly cost-performance efficient A series phones, only major downside is that they don't include Gorilla Glass 5 but in general I'm a careful user when it comes to phones so I never find myself in need to look for a hardened glassed phone or use protectors/cases:
-
-https://www.phonearena.com/phones/compare/Samsung-Galaxy-A51,Samsung-Galaxy-A71,Samsung-Galaxy-A80/phones/11293,11302,11164
-
-Important thing to mention about Samsung today is that it seems they got a huge lessons learned card past few years due to their false productions and bad testings so now their flagship or A series phones don't include any mass production errors anymore. Sadly LG, Xiaomi and some other brands still bad at this point and made me very upset last five years in this matter. 
 
 # Python Nested Loop
 
