@@ -4,15 +4,16 @@
      git clone
      git init
 
-     git add .
-     git commit -m "com1"
+     git add -A
+     git commit -m "reason for commit"
      git push
+     git status
 
      git fetch
      git checkout
      git diff
      git pull
-
+     
 # Cereal
 TIL that cereal is named for cereal grains, which in turn are named for Ceres, Roman goddess of harvests and agriculture.
 
