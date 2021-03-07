@@ -1,5 +1,5 @@
 # Git
-###### Git global setup:
+##### Git global setup:
 git config --global user.name "issoys"
 git config --global user.email "issoys@ttu.ee"
 
