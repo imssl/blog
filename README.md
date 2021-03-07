@@ -1,9 +1,9 @@
 # Git
-### Git global setup:
+#### Git global setup:
 git config --global user.name "issoys"
 git config --global user.email "issoys@ttu.ee"
 
-## Create a new repository:
+#### Create a new repository:
 git clone git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
 cd icd0007_lab4_issoys
 touch README.md
@@ -11,7 +11,7 @@ git add README.md
 git commit -m "add README"
 git push -u origin master
 
-## Push an existing folder:
+#### Push an existing folder:
 cd existing_folder
 git init
 git remote add origin git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
@@ -19,29 +19,29 @@ git add .
 git commit -m "Initial commit"
 git push -u origin master
 
-## Push an existing Git repository:
+#### Push an existing Git repository:
 cd existing_repo
 git remote rename origin old-origin
 git remote add origin git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
 git push -u origin --all
 git push -u origin --tags
 
-## Create a working copy of a local repository:
+#### Create a working copy of a local repository:
 git clone /path/to/repository
 
-## For a remote server, use:
+#### For a remote server, use:
 git clone username@host :/path/to/repository
 
-## List all currently configured remote repositories:
+#### List all currently configured remote repositories:
 git remote -v
 
-## List the files you’ve changed and those you still need to add or commit:
+#### List the files you’ve changed and those you still need to add or commit:
 git status
 
-## If you haven’t connected your local repository to a remote server, add the server to be able to push to it:
+#### If you haven’t connected your local repository to a remote server, add the server to be able to push to it:
 git remote add origin <server >
 
-## Create a new branch and switch to it:
+#### Create a new branch and switch to it:
 git checkout -b <branchname >
 
 ## Switch from one branch to another:
