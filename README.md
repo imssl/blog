@@ -96,9 +96,6 @@ git grep "foo()"
 
 #### fatal: remote origin already exists
 git remote set-url origin git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
-     
-# Cereal
-TIL that cereal is named for cereal grains, which in turn are named for Ceres, Roman goddess of harvests and agriculture.
 
 # Python Nested Loop
 
