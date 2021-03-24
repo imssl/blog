@@ -1,29 +1,44 @@
 # Git
 #### Git global setup:
 git config --global user.name "issoys"
+
 git config --global user.email "issoys@ttu.ee"
 
 #### Create a new repository:
 git clone git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
+
 cd icd0007_lab4_issoys
+
 touch README.md
+
 git add README.md
+
 git commit -m "add README"
+
 git push -u origin master
 
 #### Push an existing folder:
 cd existing_folder
+
 git init
+
 git remote add origin git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
+
 git add .
+
 git commit -m "Initial commit"
+
 git push -u origin master
 
 #### Push an existing Git repository:
 cd existing_repo
+
 git remote rename origin old-origin
+
 git remote add origin git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
+
 git push -u origin --all
+
 git push -u origin --tags
 
 #### Create a working copy of a local repository:
@@ -70,7 +85,9 @@ git merge <branchname >
 
 #### View all the merge conflicts. View the conflicts against the base file. Preview changes, before merging.
 git diff
+
 git diff --base <filename >
+    
 git diff <sourcebranch > <targetbranch >
 
 #### After you have manually resolved any conflicts, you mark the changed file:
