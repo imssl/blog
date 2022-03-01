@@ -5,6 +5,8 @@
     git config --global user.email "issoys@ttu.ee"
 
     #### Create a new repository:
+    curl -u 'USER' https://api.github.com/user/repos -d '{"name":"REPO"}
+    
     git clone git@gitlab.cs.ttu.ee:issoys/icd0007_lab4_issoys.git
 
     cd icd0007_lab4_issoys
